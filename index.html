@@ -69,6 +69,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-OpenGL-Learn" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/05/09/OpenGL-Learn/" class="article-date">
+  <time class="dt-published" datetime="2024-05-09T14:16:26.000Z" itemprop="datePublished">2024-05-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/05/09/OpenGL-Learn/">OpenGL-Learn</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="OpenGL-Learn"><a href="#OpenGL-Learn" class="headerlink" title="OpenGL-Learn"></a>OpenGL-Learn</h1><p>学习opengl的一些记录和流程<br>练习c++</p>
+<h2 id="opengl-a-start"><a href="#opengl-a-start" class="headerlink" title="opengl a start"></a>opengl a start</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">glfwInit</span>() <span class="comment">// 初始化glfw</span></span><br><span class="line"><span class="keyword">auto</span> window = <span class="built_in">glwCreateWindow</span>(<span class="number">640</span>, <span class="number">480</span>, <span class="string">&quot;Example&quot;</span>, <span class="literal">nullptr</span>, <span class="literal">nullptr</span>);<span class="comment">// 创建一个窗口,nullptr为不需要的参数</span></span><br><span class="line"><span class="built_in">glfwMakeContextCurrent</span>(window); <span class="comment">// 将窗口设置为接下来gl的上下文</span></span><br><span class="line"><span class="built_in">gladLoadGL</span>(); <span class="comment">// 初始化 glad,加载函数指针，与glew是类似的</span></span><br><span class="line"><span class="keyword">while</span>(!<span class="built_in">glfwWindowShouldClose</span>(windouw))&#123; <span class="comment">// glfwWindowShouldClose()检测窗口是否关闭</span></span><br><span class="line">    <span class="built_in">render</span>(); <span class="comment">// 封装画图的一些任务</span></span><br><span class="line">    <span class="built_in">glfwSwapBuffers</span>(window); <span class="comment">// 刷新命令队列，才能将命令提交到驱动,双缓冲，交换缓冲区，代替glFlush()</span></span><br><span class="line">    <span class="built_in">glfwPollEvents</span>(); <span class="comment">// 从操作系统获取最新事件，才能让glfwWindowShouldClose()生效</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>屏幕分辨率-空间离散化<br>显示器</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://chendianshuiyin.github.io/2024/05/09/OpenGL-Learn/" data-id="clvywaqux00009von0vn23luu" data-title="OpenGL-Learn" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-test-action-push" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/05/09/test-action-push/" class="article-date">
@@ -95,7 +137,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://chendianshuiyin.github.io/2024/05/09/test-action-push/" data-id="clvymi5o000019xq7b54dg8ja" data-title="test-action-push" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://chendianshuiyin.github.io/2024/05/09/test-action-push/" data-id="clvywaqv900029von6x341u62" data-title="test-action-push" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -110,7 +152,7 @@
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/05/09/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-05-09T02:22:17.548Z" itemprop="datePublished">2024-05-09</time>
+  <time class="dt-published" datetime="2024-05-09T06:56:28.409Z" itemprop="datePublished">2024-05-09</time>
 </a>
     
   </div>
@@ -146,7 +188,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://chendianshuiyin.github.io/2024/05/09/hello-world/" data-id="clvymi5nu00009xq7ew4x61jz" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://chendianshuiyin.github.io/2024/05/09/hello-world/" data-id="clvywaqv100019von4s92eod6" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -184,7 +226,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://chendianshuiyin.github.io/2024/05/08/test-blog/" data-id="clvymi5o200029xq70auff0jt" data-title="test-blog" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://chendianshuiyin.github.io/2024/05/08/test-blog/" data-id="clvywaqva00039vonhnydbl6f" data-title="test-blog" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -225,6 +267,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/05/09/OpenGL-Learn/">OpenGL-Learn</a>
+          </li>
         
           <li>
             <a href="/2024/05/09/test-action-push/">test-action-push</a>

@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   
   
-  <title>test-action-push | cytus&#39; blogs</title>
+  <title>OpenGL-Learn | cytus&#39; blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="测试一下github自动推送">
+  <meta name="description" content="OpenGL-Learn学习opengl的一些记录和流程练习c++ opengl a start123456789glfwInit() &#x2F;&#x2F; 初始化glfwauto window &#x3D; glwCreateWindow(640, 480, &quot;Example&quot;, nullptr, nullptr);&#x2F;&#x2F; 创建一个窗口,nullptr为不需要的参数glfwMakeContextCurr">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test-action-push">
-<meta property="og:url" content="http://chendianshuiyin.github.io/2024/05/09/test-action-push/index.html">
+<meta property="og:title" content="OpenGL-Learn">
+<meta property="og:url" content="http://chendianshuiyin.github.io/2024/05/09/OpenGL-Learn/index.html">
 <meta property="og:site_name" content="cytus&#39; blogs">
-<meta property="og:description" content="测试一下github自动推送">
+<meta property="og:description" content="OpenGL-Learn学习opengl的一些记录和流程练习c++ opengl a start123456789glfwInit() &#x2F;&#x2F; 初始化glfwauto window &#x3D; glwCreateWindow(640, 480, &quot;Example&quot;, nullptr, nullptr);&#x2F;&#x2F; 创建一个窗口,nullptr为不需要的参数glfwMakeContextCurr">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-05-09T10:21:00.000Z">
+<meta property="article:published_time" content="2024-05-09T14:16:26.000Z">
 <meta property="article:modified_time" content="2024-05-09T06:56:28.409Z">
 <meta property="article:author" content="cytus">
 <meta name="twitter:card" content="summary">
@@ -71,10 +71,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-test-action-push" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-OpenGL-Learn" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2024/05/09/test-action-push/" class="article-date">
-  <time class="dt-published" datetime="2024-05-09T10:21:00.000Z" itemprop="datePublished">2024-05-09</time>
+    <a href="/2024/05/09/OpenGL-Learn/" class="article-date">
+  <time class="dt-published" datetime="2024-05-09T14:16:26.000Z" itemprop="datePublished">2024-05-09</time>
 </a>
     
   </div>
@@ -85,7 +85,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      test-action-push
+      OpenGL-Learn
     </h1>
   
 
@@ -93,11 +93,15 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="测试一下github自动推送"><a href="#测试一下github自动推送" class="headerlink" title="测试一下github自动推送"></a>测试一下github自动推送</h1>
+        <h1 id="OpenGL-Learn"><a href="#OpenGL-Learn" class="headerlink" title="OpenGL-Learn"></a>OpenGL-Learn</h1><p>学习opengl的一些记录和流程<br>练习c++</p>
+<h2 id="opengl-a-start"><a href="#opengl-a-start" class="headerlink" title="opengl a start"></a>opengl a start</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">glfwInit</span>() <span class="comment">// 初始化glfw</span></span><br><span class="line"><span class="keyword">auto</span> window = <span class="built_in">glwCreateWindow</span>(<span class="number">640</span>, <span class="number">480</span>, <span class="string">&quot;Example&quot;</span>, <span class="literal">nullptr</span>, <span class="literal">nullptr</span>);<span class="comment">// 创建一个窗口,nullptr为不需要的参数</span></span><br><span class="line"><span class="built_in">glfwMakeContextCurrent</span>(window); <span class="comment">// 将窗口设置为接下来gl的上下文</span></span><br><span class="line"><span class="built_in">gladLoadGL</span>(); <span class="comment">// 初始化 glad,加载函数指针，与glew是类似的</span></span><br><span class="line"><span class="keyword">while</span>(!<span class="built_in">glfwWindowShouldClose</span>(windouw))&#123; <span class="comment">// glfwWindowShouldClose()检测窗口是否关闭</span></span><br><span class="line">    <span class="built_in">render</span>(); <span class="comment">// 封装画图的一些任务</span></span><br><span class="line">    <span class="built_in">glfwSwapBuffers</span>(window); <span class="comment">// 刷新命令队列，才能将命令提交到驱动,双缓冲，交换缓冲区，代替glFlush()</span></span><br><span class="line">    <span class="built_in">glfwPollEvents</span>(); <span class="comment">// 从操作系统获取最新事件，才能让glfwWindowShouldClose()生效</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>屏幕分辨率-空间离散化<br>显示器</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://chendianshuiyin.github.io/2024/05/09/test-action-push/" data-id="clvywaqv900029von6x341u62" data-title="test-action-push" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://chendianshuiyin.github.io/2024/05/09/OpenGL-Learn/" data-id="clvywaqux00009von0vn23luu" data-title="OpenGL-Learn" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -107,19 +111,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2024/05/09/OpenGL-Learn/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          OpenGL-Learn
-        
-      </div>
-    </a>
   
-  
-    <a href="/2024/05/09/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2024/05/09/test-action-push/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">test-action-push</div>
     </a>
   
 </nav>
