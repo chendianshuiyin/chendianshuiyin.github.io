@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>归档 | cytus&#39; blogs</title>
+  <title>BeanDefination的资源定位过程 | cytus&#39; blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="cytus&#39; blogs">
-<meta property="og:url" content="http://chendianshuiyin.github.io/archives/index.html">
+  <meta name="description" content="Spring配置文件实例化FileSystenXmlApplicationContext">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BeanDefination的资源定位过程">
+<meta property="og:url" content="http://chendianshuiyin.github.io/2024/05/31/Spring/IoC/BeanDefinition%E7%9A%84%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E8%BF%87%E7%A8%8B/index.html">
 <meta property="og:site_name" content="cytus&#39; blogs">
+<meta property="og:description" content="Spring配置文件实例化FileSystenXmlApplicationContext">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-05-31T11:45:00.000Z">
+<meta property="article:modified_time" content="2024-05-31T03:59:37.553Z">
 <meta property="article:author" content="cytus">
+<meta property="article:tag" content="spring">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="cytus' blogs" type="application/atom+xml">
@@ -67,115 +72,54 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2024" class="archive-year">2024</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/05/31/Spring/IoC/BeanDefinition%E7%9A%84%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E8%BF%87%E7%A8%8B/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-05-31T11:45:00.000Z" itemprop="datePublished">5月 31</time>
+        <section id="main"><article id="post-Spring/IoC/BeanDefinition的资源定位过程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/05/31/Spring/IoC/BeanDefinition%E7%9A%84%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E8%BF%87%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2024-05-31T11:45:00.000Z" itemprop="datePublished">2024-05-31</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/05/31/Spring/IoC/BeanDefinition%E7%9A%84%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E8%BF%87%E7%A8%8B/">BeanDefination的资源定位过程</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      BeanDefination的资源定位过程
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/05/31/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-05-31T03:59:37.553Z" itemprop="datePublished">5月 31</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/05/31/hello-world/">Hello World</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/05/09/OpenGL-Learn/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-05-09T14:16:26.000Z" itemprop="datePublished">5月 9</time>
-</a>
+        <h1 id="Spring配置文件实例化FileSystenXmlApplicationContext"><a href="#Spring配置文件实例化FileSystenXmlApplicationContext" class="headerlink" title="Spring配置文件实例化FileSystenXmlApplicationContext"></a>Spring配置文件实例化FileSystenXmlApplicationContext</h1>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/05/09/OpenGL-Learn/">OpenGL-Learn</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/05/09/test-action-push/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-05-09T10:21:00.000Z" itemprop="datePublished">5月 9</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://chendianshuiyin.github.io/2024/05/31/Spring/IoC/BeanDefinition%E7%9A%84%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E8%BF%87%E7%A8%8B/" data-id="clwu5o2tl0004bfp11hfef9ds" data-title="BeanDefination的资源定位过程" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/05/09/test-action-push/">test-action-push</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/05/08/test-blog/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-05-08T17:00:59.000Z" itemprop="datePublished">5月 8</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/05/08/test-blog/">test-blog</a>
-    </h1>
-  
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/spring/" rel="tag">spring</a></li></ul>
 
-    </header>
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2024/05/31/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
